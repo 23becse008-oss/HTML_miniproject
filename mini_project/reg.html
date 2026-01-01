@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+         background-color: rgb(174, 182, 188);
+      }
+      button{
+         background-color: rgb(250, 244, 244);
+         width: 50%;
+         padding: 3px;
+         margin: 10px;
+         border: 1px solid#aea5a5;
+         margin-left: 150px;
+         margin-right: 150px;
+      }
+      button:hover{
+         opacity: 0.5;
+      }
+      input[type=text],input[type=password],input[type=email]{
+         width: 70%;
+         margin: 10px;
+         border-radius: 3px;
+         border-color: #83809f;
+      }
+      div{
+         height: 550px;
+         margin-left: 400px;
+         margin-right: 400px;
+         border: 1px solid rgb(127, 107, 107);
+      }
+      textarea{
+         width: 70%;
+         margin: 10px;
+         border-radius: 3px;
+         border-color: #83809f;
+      }
+
+    </style>
+</head>
+<body>
+    <h1 align="center">Welcome to Student online Registeration</h1>
+    <form>
+      <div style="padding: 25px;background-color: rgb(187, 224, 231);">
+    <p><label>First name:</label>
+    <input type="text" name="first name" placeholder="Enter name" required><br></p>
+    <p></p><label>Last name:</label>
+    <input type="text" name="last name" placeholder="Enter name" required></p>
+    <label>Gender:</label>
+    <input type="radio" name="male">male
+    <input type="radio" name="female">female<br>
+    <br>
+     <p>Course:
+     <select name="area">
+        <option value="mba">MBA</option>
+        <option value="bca">BCA</option>
+        <option value="b.tech">B.TECH</option>
+        <option value="m.tech">M.TECH</option>
+        <option value="b.ed">B.ED</option>
+     </select><input type="checkbox" name="sub">remmeber me</p>
+     <label>Address:</label><br>
+     <textarea rows="3" cols="50">
+      Enter the addresss....
+     </textarea><br>
+     <label>Phone number:</label>
+     <input type="text" name="country code" value="+91" required>
+     <input type="number" name="phone"><br>
+     <label>Email:</label>
+     <input type="email" name="enter email" placeholder="Enter email"><br>
+      <label>Password:</label>
+     <input type="text" name="last name" placeholder="Enter password" maxlength="5" required><br>
+     <label>ReEnter password</label>
+     <input type="text" name="last name" placeholder="ReEnter password" maxlength="5" required>
+     <button type="submit">Submit</button>
+   </div>
+     </form>
+</body>
+</html>

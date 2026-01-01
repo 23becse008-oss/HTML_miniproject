@@ -1,0 +1,41 @@
+body{
+    background-color: antiquewhite;
+}
+.job_2{
+    background-color: rgb(198, 164, 158);
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 250px;
+}
+.job{
+    text-align: center;
+}
+.box{
+    padding: 10px;
+    border-radius: 20px;
+}
+button{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+#cancelbtn{
+    width: 70px;
+}
+input[type=text],input[type=password]{
+    padding: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    border-color: rgb(207, 214, 220);
+    width: 50%;
+}
+#sin{
+    margin: 5px;
+    margin-left: 30px;
+}
+button:hover{
+    opacity: 0.5;
+}
